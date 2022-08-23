@@ -12,10 +12,10 @@ namespace MathClass.Service
 {
     public interface IMathOperations
     {
-        int AddFun(InputValues values);
-        int SubFun(InputValues values);
-        int MulFun(InputValues values);
-        int DivFun(InputValues values);
+        int Addition(InputValues values);
+        int Substraction(InputValues values);
+        int Multiplication(InputValues values);
+        int Division(InputValues values);
 
     }
 }

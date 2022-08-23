@@ -12,7 +12,7 @@ namespace MathClass.Service
 {
     public class MathOperationService : IMathOperations
     {
-        public int AddFun(InputValues values)
+        public int Addition(InputValues values)
         {
             try
             {
@@ -20,13 +20,12 @@ namespace MathClass.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
                 throw;
             }
         }
 
 
-        public int SubFun(InputValues values)
+        public int Substraction(InputValues values)
         {
             try
             {
@@ -34,13 +33,12 @@ namespace MathClass.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
                 throw;
             }
 
         }
 
-        public int MulFun(InputValues values)
+        public int Multiplication(InputValues values)
         {
             try
             {
@@ -49,12 +47,11 @@ namespace MathClass.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
                 throw;
             }
         }
 
-        public int DivFun(InputValues values)
+        public int Division(InputValues values)
         {
             try
 
@@ -63,7 +60,6 @@ namespace MathClass.Service
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
                 throw;
             }
         }
