@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MathClass.Model;
-using WebApplicationAPI.Service;
+using MathClass.Service;
 
 namespace MathClass.Controllers
 {

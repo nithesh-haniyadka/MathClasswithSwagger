@@ -8,7 +8,7 @@
 using MathClass.Model;
 using System;
 
-namespace WebApplicationAPI.Service
+namespace MathClass.Service
 {
     public class MathOperationService : IMathOperations
     {

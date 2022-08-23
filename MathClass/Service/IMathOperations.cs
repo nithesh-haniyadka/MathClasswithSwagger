@@ -5,10 +5,9 @@
 //    }
 //}
 
-
 using MathClass.Model;
 
-namespace WebApplicationAPI.Service
+namespace MathClass.Service
 
 {
     public interface IMathOperations

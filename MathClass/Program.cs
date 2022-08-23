@@ -1,5 +1,5 @@
+using MathClass.Service;
 using Microsoft.OpenApi.Models;
-using WebApplicationAPI.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
