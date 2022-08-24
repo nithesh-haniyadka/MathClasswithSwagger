@@ -20,3 +20,9 @@ creates a single instance of the service when it is first requested and reuses t
 
 AddTransient()
 With a transient service, a new instance is provided every time a service instance is requested whether it is in the scope of the same HTTP request or across different HTTP requests.
+
+
+When not to use ?
+Singleton service converts Scoped and Transient serivces to Singleton if we inject in Singleton . Hence dont inject Scoped and Transient Serviced into singleton service.
+
+Scoped Services converts Transient services into scoped service if we inject the transient service . Hence donot inject the same.
